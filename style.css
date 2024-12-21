@@ -1,0 +1,182 @@
+
+
+#kapsul{
+    margin: auto;
+    width: 60%;
+    height: 1200px;
+    padding: 10px;
+    background-color: black;
+
+}
+
+#reklam{
+    margin: auto;
+    width: 100%;
+    height: 200px;
+
+}
+#reklam img {
+    width: 100%;
+    height: 200px;
+}
+#menu{
+    margin: auto;
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+#menu li{
+
+    float: left;
+    margin-left: 50px;
+    list-style: none;
+    
+    
+}
+#menu a{
+    line-height: 40px;
+}
+
+#menu ul{
+    margin-left: 200px;
+}
+
+#menu :hover{
+    background-color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+#harita{
+
+    width: 49.5%;
+    height: 300px;
+    float: left;  
+    margin-top: 10px;
+}
+#harita img{
+    width: 100%;
+    height: 300px;
+}
+
+#telefon{
+
+    width: 49.5%;
+    height: 300px;
+    float: right;
+    background-color: white;
+    margin-top: 10px;
+}
+#telefon img{
+    height: 300px;
+    width: 45%;
+}
+#metin{ 
+    clear: both;
+    width: 98,3%;
+    height: 500px;
+    background-color: white;
+    border: 10px solid black;
+    overflow-y: scroll;
+}
+#smedya{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    line-height: 40px;
+    
+}
+
+#face,#twitter,#insta,#googleplus{
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-top: 35px;
+}
+
+#face{
+    background-image: url("facelogo.png") ;
+    margin-left: 40%;
+    background-repeat: no-repeat; 
+}
+#face:hover{
+    background-image: url("facelogosiyah.png");
+    background-repeat: no-repeat; 
+}
+#twitter{
+    background-image: url("Twitter.png");
+    margin-left: 6px;
+    background-repeat: no-repeat; 
+}
+#twitter:hover{
+    background-image: url("Twittersiyah.png");
+    background-repeat: no-repeat; 
+}
+#insta{
+    background-image: url("insta.png");
+    margin-left: 6px;
+    background-repeat: no-repeat; 
+}
+#insta:hover{
+    background-image: url("instasiyah.png");
+    background-repeat: no-repeat; 
+}
+#googleplus{
+    background-image: url("gplogo.png");
+    margin-left: 6px;
+    background-repeat: no-repeat; 
+}
+#googleplus:hover{
+    background-image: url("gplogosiyah.png");
+    background-repeat: no-repeat; 
+}
+
+
+#yanreklam{
+    width:50px;
+    height: 30px;
+    position: absolute;
+    top:50px;
+    right: 0px;
+}
+#yanreklam2{
+    width:50px;
+    height: 30px;
+    position: absolute;
+    top:100px;
+    right: 0px;
+}
+#yanreklam3{
+    width:50px;
+    height: 30px;
+    position: absolute;
+    top:150px;
+    right: 0px;
+}
+
+#yanreklam:hover{
+    right: 155px;
+    transition-property: all;
+    transition-duration: 0.4s;
+    transition-delay: 0.1s;
+    transition: all 0.4s;
+}
+#yanreklam2:hover{
+    right: 155px;
+    transition-property: all;
+    transition-duration: 0.4s;
+    transition-delay: 0.1s;
+    transition: all 0.4s;
+}
+#yanreklam3:hover{
+    right: 155px;
+    transition-property: all;
+    transition-duration: 0.4s;
+    transition-delay: 0.1s;
+    transition: all 0.4s;
+}
+
+
+
+
